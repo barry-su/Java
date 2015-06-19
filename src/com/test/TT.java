@@ -6,8 +6,10 @@ public class TT {
 
     public static void main(String[] args) {
         // TODO Auto-generated method stub
-        int number = new Random().nextInt(10);
-        System.out.println("number:"+number);
+        for(int i =0;i<40;i++){
+            int number = new Random().nextInt(3);
+            System.out.println("number:"+number);
+        }
     }
 
 }
